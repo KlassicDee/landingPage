@@ -1,16 +1,17 @@
 import React from 'react'
-import './App.css';
+import './App.css'
 import Nav from './Components/Nav'
-import Header from './Components/Header';
-// import 'bootstrap/dist/css/bootstrap.css';
-// import  Dropdown from 'react-bootstrap/Dropdown';
+import Home from './Components/Home'
+import Section  from './Components/Section'
+import Footer from './Components/Footer'
 
 function App() {
   return (
     <div className="App">
      <Nav/>
-     <Header/>
-     
+     <Home/>
+     <Section/>
+     <Footer/>
     </div>
   );
 }

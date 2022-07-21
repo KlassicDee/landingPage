@@ -1,14 +1,15 @@
 import React from "react";
-import "./Styles/Header.css";
+import "./Styles/Home.css";
 
 
-const Header = () => {
+const Home = () => {
   return (
-    <div className="header">
-      <div className="header_container">
-        <div className="header_content">
+    <div className="home">
+      <section>
+      <div className="home_container">
+        <div className="home_content">
           <div className="texts">
-            <p className="header_p">
+            <p className="home_p">
               Managing freelance <br /> payments has never <br /> been easier
             </p>
             <p>
@@ -17,7 +18,7 @@ const Header = () => {
             </p>
           </div>
           <div className="text_two">
-            <button className="header_btn">Get Started </button>
+            <button className="home_btn">Get Started </button>
             <a href="#">See How it Works</a>
           </div>
         </div>
@@ -25,12 +26,12 @@ const Header = () => {
           <img src="./images/blck.png"/>
           <img src="./images/yt.png" />
         </div> */}
-        <div className='image'>
+        <div className='home-image'>
           <img src="./images/backgrnd.png"/>
         </div>
       </div>
 
-      <div className="header_section">
+      <div className="home_section">
         <p>Over 32k+ software businesses growing with AR Shakir</p>
         <div className="icon">
           <img src="./images/pheus.png" />
@@ -40,9 +41,10 @@ const Header = () => {
           <img src="./images/proto.png" />
           <img src="./images/seg.png" />
         </div>
-      </div>
+        </div>
+        </section>
     </div>
   );
 };
 
-export default Header;
+export default Home;
